@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('Build'){
       steps{
-        sh 'g++ -o newtask5 task5_new218.cpp'
+        sh 'g++ -o newtask5 main/task5_new218.cpp'
         build job: 'PES1UG20CS218-1'
       }
     }
